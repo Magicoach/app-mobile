@@ -1,0 +1,7 @@
+"#widget":{
+	backgroundColor:Alloy.CFG.colors.white,
+	backgroundImage:'/images/graphs/map.png'
+}
+"#web":{
+	backgroundColor:'transparent'
+}

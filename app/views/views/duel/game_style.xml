@@ -1,0 +1,36 @@
+<Alloy>
+	<ScrollView id='view' class='scroll'>
+		<View class='winner_wrap' id='left_wrap' left='10'>
+			<ImageView class='winner_icon'/>
+		</View>
+		<Label class='winner_text' id='left_text' left='42'/>
+		<Label class='title'/>
+		<View class='winner_wrap' id='right_wrap' right='10'>
+			<ImageView class='winner_icon'/>
+		</View>
+		<Label class='winner_text' id='right_text' right='42'/>
+		<Label class='title'/>
+		<View class='border'/>
+		<View class='content'>
+			<View class='played'>
+				<Label class='label_graph' id='combative'/>
+				<Label class='label_graph' id='boxtobox'/>
+			</View>
+			<View id='over'>
+				<View id='others'/>
+				<View id='user'>
+					<ImageView id='user_pic'/>
+				</View>
+				<View id='friend'>
+					<ImageView id='friend_pic'/>
+				</View>
+				<Label class='names' id='user_name'/>
+				<Label class='names' id='friend_name'/>
+			</View>
+			<Label class='label_graph' id='posicional'/>
+			<Label class='label_graph' id='explosive'/>
+			<ImageView class='style_km'/>
+			<ImageView class='style_sprints'/>
+		</View>
+	</ScrollView>
+</Alloy>

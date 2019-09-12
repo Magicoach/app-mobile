@@ -1,0 +1,6 @@
+<Alloy>
+	<View id='view'>
+		<ScrollView id='games_list'/>
+		<Label id='empty'/>
+	</View>
+</Alloy>

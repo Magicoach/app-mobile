@@ -1,0 +1,51 @@
+<Alloy>
+	<View id='view'>
+		<View class='horizontal' id='profile'>
+			<ImageView id='picture' onClick='onClickPicture' />
+			<View id='info'>
+				<Label id='username'/>
+				<Label id='email'/>
+			</View>
+		</View>
+		<View class='title_border' />
+		<ScrollView id='content'>
+			<View class='form'>
+				<View class='field'>
+					<Label class='label' id='username_label' />
+					<TextField class='input' id='username_value' />
+				</View>
+				<View class='br'/>
+				<View class='field'>
+					<Label class='label' id='password_label' />
+					<TextField class='input' id='password_value' passwordMask='true' />
+				</View>
+				<View class='br'/>
+				<View class='field'>
+					<Label class='label' id='password_label2' />
+					<TextField class='input' id='password_value2' passwordMask='true' />
+				</View>
+				<View class='br'/>
+				<View class='field'>
+					<Label class='label' id='weight_label' />
+					<TextField class='input' id='weight_value' keyboardType='Ti.UI.KEYBOARD_TYPE_NUMBERS_PUNCTUATION' />
+				</View>
+				<View class='br'/>
+				<View class='field'>
+					<Label class='label' id='country_label' />
+					<TextField class='input' id='country_value' />
+				</View>
+				<View class='br'/>
+				<View class='field'>
+					<Label class='label' id='city_label' />
+					<TextField class='input' id='city_value' />
+				</View>
+				<View class='br'/>
+				<View class='field'>
+					<Label class='label' id='club_label' />
+					<TextField class='input' id='club_value' />
+				</View>
+			</View>
+			<View class='br'/>
+		</ScrollView>
+	</View>
+</Alloy>

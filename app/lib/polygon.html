@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Magicoach</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body style="margin:0">
+<svg>
+	<polygon style="stroke:#262626;stroke-width:0"></polygon>
+</svg>
+<script>
+var load = function(result) {
+	document.getElementsByTagName('svg')[0].style.height = result.height+'px';
+	document.getElementsByTagName('svg')[0].style.width = result.width+'px';
+	document.getElementsByTagName('polygon')[0].style.fill = result.color;
+	
+	for (var i = 0; i < result.points.length; i++) {
+		var point = document.getElementsByTagName('svg')[0].createSVGPoint();
+		point.x = result.points[i].x;
+		point.y = result.points[i].y;
+		document.getElementsByTagName('polygon')[0].points.appendItem(point);
+	}	
+};
+</script>
+</body>
+</html>

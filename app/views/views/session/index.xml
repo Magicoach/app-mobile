@@ -1,0 +1,6 @@
+<Alloy>
+	<View id='session'>
+		<ImageView class='appicon'/>
+		<View id='content'/>
+	</View>
+</Alloy>

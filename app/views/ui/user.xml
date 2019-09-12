@@ -1,0 +1,7 @@
+<Alloy>
+	<View id='user' onClick='onClickItem'>
+		<ImageView id='image'/>
+		<Label id='name'/>
+		<Label id='points'/>
+	</View>
+</Alloy>

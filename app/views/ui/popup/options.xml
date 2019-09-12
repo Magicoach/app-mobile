@@ -1,0 +1,22 @@
+<Alloy>
+	<View id='popup'>
+		<View class='controls'>
+				<Label id='title'/>
+				<Label id='text'/>
+				<View class='horizontal'>
+					<View class='button' id='no' onClick='onClickNo' >
+						<View class='border'>
+							<ImageView class='icon' image='/images/icons/no.png'/>
+						</View>
+						<Label class='text' id='no_text'/>
+					</View>
+					<View class='button' id='yes' onClick='onClickYes' >
+						<View class='border'>
+							<ImageView class='icon' image='/images/icons/yes.png'/>
+						</View>
+						<Label class='text' id='yes_text'/>
+					</View>
+				</View>
+		</View>
+	</View>
+</Alloy>

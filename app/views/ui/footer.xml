@@ -1,0 +1,8 @@
+<Alloy>
+	<View id='view' onClick='onClickFooter'>
+		<View class='wrap'>
+			<ImageView id='icon'/>
+			<Label id='title'/>
+		</View>
+	</View>
+</Alloy>

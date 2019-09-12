@@ -1,0 +1,38 @@
+<Alloy>
+	<View id='views'>
+		<View id='info' onClick='onClickLogoScreen'>
+			<View class='info_bg'/>
+			<View class='info_view'>
+				<View class='info_wrap'>
+					<ImageView class='info_icon'/>
+					<Label id='version'/>
+					<Label id='info_site'/>
+				</View>
+			</View>
+		</View>
+		<View id='menu'>
+			<View class='vertical'>
+				<View id='close_menu' onClick='onClickMenuClose'>
+					<ImageView image='/images/menu/close.png'/>
+				</View>
+				<ScrollView id='items'/>
+				<View id='extra_menu'/>
+			</View>
+			<Label id='site'/>
+		</View>
+		<View id='wrap'>
+			<View id='locker' onClick='onClickMenuClose' />
+			<View id='container'>
+				<View id='header'>
+					<View id='trigger' onClick='onClickMenuIcon'>
+						<ImageView id='button'/>
+						<Label id='title'/>
+					</View>
+					<Label class='identity' onClick='onClickLogo'>Magicoach</Label>
+					<ImageView id='logo' onClick='onClickLogo' />
+				</View>
+				<View id='content' />
+			</View>
+		</View>
+	</View>
+</Alloy>

@@ -1,0 +1,191 @@
+'#view':{
+	backgroundColor:Alloy.CFG.colors.white,
+    width:Ti.UI.FILL
+}
+'#list':{
+	scrollType:'vertical',
+	layout:'vertical',
+	backgroundColor:Alloy.CFG.colors.white,
+	height:Ti.UI.SIZE,
+	top:0
+}
+'.controls':{
+	bottom:0,
+	height:Ti.UI.SIZE,
+	layout:'horizontal'
+}
+'.option':{
+	backgroundColor:Alloy.CFG.colors.white,
+	height:40,
+	bottom:1
+}
+'.time':{
+	backgroundColor:Alloy.CFG.colors.white,
+	height:40,
+	bottom:1
+}
+'.icon':{
+	left:12,
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE
+}
+'.label_time':{
+	height:40,
+	width:Ti.UI.SIZE,
+	textAlign:'left',
+	left:38,
+	font:{
+		fontSize:14,
+		fontFamily:'GothamRnd-Book'
+	},
+	color:Alloy.CFG.colors.dark
+}
+'.label':{
+	top:1,
+	height:40,
+	width:Ti.UI.SIZE,
+	textAlign:'left',
+	left:38,
+	font:{
+		fontSize:14,
+		fontFamily:'GothamRnd-Book'
+	},
+	color:Alloy.CFG.colors.dark
+}
+'#field_label':{
+	color:Alloy.CFG.colors.red
+}
+'.right':{
+	height:40,
+	width:Ti.UI.SIZE,
+	textAlign:'right',
+	right:12,
+	font: {
+		fontSize:20,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	},
+	color:Alloy.CFG.colors.dark
+}
+'.button':{
+	height:50,
+	color:Alloy.CFG.colors.white,
+	textAlign:'center'
+}
+'#cancel':{
+	text:L('cancel_game'),
+	font:{
+		fontSize:14,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	},
+	backgroundColor:Alloy.CFG.colors.green
+}
+'#save':{
+	text:L('send'),
+	font:{
+		fontSize:14,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	},
+	backgroundColor:Alloy.CFG.colors.dark
+}
+'#unknown_field':{
+	text:L('location_based'),
+	font:{
+		fontSize:10,
+		fontFamily:'GothamRnd-Book'
+	},
+	right:12,
+	bottom:6,
+	color:Alloy.CFG.colors.red
+}
+'#new_calibration':{
+	text:L('new_calibration'),
+	font:{
+		fontSize:14,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	},
+	right:12,
+	top:6,
+	color:Alloy.CFG.colors.red
+}
+'#known_field':{
+	text:'',
+	font:{
+		fontSize:14,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	},
+	right:36,
+	top:6,
+	visible:false
+}
+'#location_based':{
+	text:L('location_based'),
+	font:{
+		fontSize:10,
+		fontFamily:'GothamRnd-Book'
+	},
+	right:12,
+	bottom:6,
+	color:Alloy.CFG.colors.darkGrey,
+	visible:false
+}
+'#field_valid':{
+	top:6,
+	right:12,
+	image:'/images/ui/checkbox_on.png',
+	visible:false
+}
+'#win':{
+	right:130,
+	width:Ti.UI.SIZE,
+	text:L('win'),
+	textAlign:'right',
+	font:{
+		fontSize:20,
+		fontFamily:'GothamRnd-Book'
+	},
+	color:Alloy.CFG.colors.grey
+}
+'#draw':{
+	right:60,
+	width:Ti.UI.SIZE,
+	text:L('draw'),
+	textAlign:'right',
+	font:{
+		fontSize:20,
+		fontFamily:'GothamRnd-Book'
+	},
+	color:Alloy.CFG.colors.grey
+}
+'#lost':{
+	right:0,
+	width:Ti.UI.SIZE,
+	text:L('lost'),
+	textAlign:'right',
+	font:{
+		fontSize:20,
+		fontFamily:'GothamRnd-Book'
+	},
+	color:Alloy.CFG.colors.grey
+}
+'.goals':{
+	top:1,
+	bottom:1,
+	left:1,
+	right:1,
+	height:42,
+	width:42,
+	borderRadius:21,
+	borderWidth:1,
+	borderColor:Alloy.CFG.colors.transparent,
+	textAlign:'center',
+	font:{
+		fontSize:20,
+		fontFamily:'GothamRnd-Book'
+	},
+	color:Alloy.CFG.colors.grey
+}

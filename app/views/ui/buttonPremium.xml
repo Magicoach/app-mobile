@@ -1,0 +1,10 @@
+<Alloy>
+	<View id='view' onClick='onClickButton'>
+		<View class='horizontal'>
+			<ImageView id='logo_gold'/>
+			<View id='button'>
+				<Label id='title'/>
+			</View>
+		</View>
+	</View>
+</Alloy>

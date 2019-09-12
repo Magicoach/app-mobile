@@ -1,0 +1,24 @@
+<Alloy>
+	<View id='view' class='vertical'>
+		<Label class='title' id='physical'/>
+		<View class='line'/>
+		<View class='view horizontal'>
+			<View width='50%' class='view vertical'>
+				<Label text='Sprints' />
+			</View>
+			<View width='50%' class='view vertical'>
+				<Label text='Distancia' />
+			</View>
+		</View>
+		<View id='distancegraph' />
+				<View class='view horizontal'>
+			<View width='50%' class='view vertical'>
+				<Label text='% Running' />
+			</View>
+			<View width='50%' class='view vertical'>
+				<Label text='Avg Speed' />
+			</View>
+		</View>
+		<View id='velocitygraph' />
+	</View>
+</Alloy>

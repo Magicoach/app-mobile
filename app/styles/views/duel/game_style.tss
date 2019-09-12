@@ -1,0 +1,135 @@
+'#view':{
+	scrollType:'vertical'
+}
+'.title':{
+	top:0,
+	height:37,
+	width:Ti.UI.FILL,
+	textAlign:'center',
+	text:L('game_style'),
+	font:{
+		fontSize:14,
+		fontWeight:'normal',
+		fontFamily:'GothamRnd-Book'
+	},
+	color:Alloy.CFG.colors.darkest
+}
+'.winner_wrap':{
+	top:6,
+	width:26,
+	height:26,
+	borderRadius:13,
+	borderWidth:1,
+	borderColor:Alloy.CFG.colors.transparent
+}
+'.winner_icon':{
+	image:'/images/menu/cup.png'
+}
+'.winner_text':{
+	top:12,
+	font:{
+		fontSize:12,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'.border':{
+	top:37,
+	height:1,
+	left:12,
+	right:12,
+	backgroundColor:Alloy.CFG.colors.lightGrey
+}
+'.content':{
+	top:45,
+	height:Ti.UI.SIZE
+},
+'.played':{
+	top:1,
+},
+'#over':{
+	top:48,
+	width:256,
+	height:256,
+	backgroundImage:'/images/graphs/style.png'
+}
+'#user_pic':{
+	width:32,
+	height:32,
+	borderWidth:2,
+	borderRadius:16,
+	borderColor:Alloy.CFG.colors.light
+},
+'#friend_pic':{
+	width:32,
+	height:32,
+	borderWidth:2,
+	borderRadius:16,
+	borderColor:Alloy.CFG.colors.darkest
+},
+'#user':{
+	zIndex:2,
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE
+},
+'#friend':{
+	zIndex:2,
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE
+}
+'.label_graph':{
+	height:Ti.UI.SIZE,
+	width:256,
+	color:Alloy.CFG.colors.light,
+	font:{
+		fontSize:14,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'#combative':{
+	top:25,
+	height:20,
+	textAlign:'left'
+}
+'#boxtobox':{
+	top:25,
+	height:20,
+	textAlign:'right'
+}
+'#posicional':{
+	top:305,
+	textAlign:'left'
+}
+'#explosive':{
+	top:305,
+	textAlign:'right'
+}
+'#others':{
+	width:256,
+	height:216,
+	zIndex:3
+}
+'.style_km':{
+	left:5,
+	top:70,
+	width:Ti.UI.SIZE,
+	height:219,
+	image:'/images/graphs/km.png'
+}
+'.style_sprints':{
+	top:325,
+	width:256,
+	height:14,
+	image:'/images/graphs/sprints.png'
+}
+'.names':{
+	zIndex:2,
+	width:100,
+	height:32,
+	textAlign:'center',
+	color:Alloy.CFG.colors.grey,
+	font:{
+		fontSize:11,
+		fontFamily:'GothamRnd-Book'
+	}
+}

@@ -1,0 +1,64 @@
+'#view':{
+	height:34,
+	backgroundColor:Alloy.CFG.colors.white
+}
+'Label':{
+	color:Alloy.CFG.colors.darkGrey,
+	width:Ti.UI.SIZE
+}
+'#place':{
+	left:0,
+	width:40,
+	color:Alloy.CFG.colors.darkest,
+	textAlign:'center',
+	backgroundColor:Alloy.CFG.colors.transparent,
+	font:{
+		fontSize:12,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'.container':{
+	left:40,
+	height:34,
+	width:34,
+	backgroundColor:Alloy.CFG.colors.transparent
+}
+'#image':{
+	left:0,
+	image:'/images/picture.png',
+	borderWidth:1,
+	borderColor:Alloy.CFG.colors.black,
+	borderRadius:13,
+	height:26,
+	width:26
+}
+'#friend':{
+	height:12,
+	width:12,
+	right:0,
+	bottom:0,
+	visible:false,
+	image:'/images/header/friends.png',
+	backgroundColor:Alloy.CFG.colors.transparent
+}
+'#name':{
+	left:74,
+	font:{
+		fontSize:12,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'.right':{
+	right:0,
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	layout:'horizontal'
+}
+'.info':{
+	width:45,
+	textAlign:'center',
+	font:{
+		fontSize:12,
+		fontFamily:'GothamRnd-Book'
+	}
+}

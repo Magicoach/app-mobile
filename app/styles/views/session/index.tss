@@ -1,0 +1,8 @@
+'#session':{
+	width:Ti.UI.FILL,
+	backgroundImage:'/images/background.png'
+}
+'#content':{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE
+}

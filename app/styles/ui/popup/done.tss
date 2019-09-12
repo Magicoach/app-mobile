@@ -1,0 +1,36 @@
+'#popup':{
+	backgroundColor:Alloy.CFG.colors.darkest,
+	width:Ti.UI.FILL,
+	opacity:0.9
+}
+'.controls':{
+	'height':Ti.UI.SIZE,
+	'layout':'vertical',
+	'left':40,
+	'right':40
+}
+'#button':{
+	'height':46,
+	'width':46,
+	'borderRadius':23,
+	'borderWidth':3,
+	'borderColor':Alloy.CFG.colors.white
+}
+'.title':{
+	'color':Alloy.CFG.colors.white,
+	'textAlign':'center',
+	'font':{
+		'fontSize':22,
+		fontFamily:'GothamRnd-Book'
+	},
+	'bottom':20
+}
+'.text':{
+	'color':Alloy.CFG.colors.white,
+	'textAlign':'center',
+	'font':{
+		'fontSize':14,
+		fontFamily:'GothamRnd-Book'
+	},
+	'bottom':20
+}

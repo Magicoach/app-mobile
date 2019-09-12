@@ -1,0 +1,67 @@
+<Alloy>
+	<View id='view'>
+		<ScrollView id='list'>
+			<View class='option'>
+				<ImageView class='icon' image='/images/icons/start.png'/>
+				<Label class='label_time' id='start_label'/>
+				<Label class='right' id='start'/>
+			</View>
+			<View class='option'>
+				<ImageView class='icon' image='/images/icons/now.png'/>
+				<Label class='label_time' id='now_label'/>
+				<Label class='right' id='now'/>
+			</View>
+			<View class='option'>
+				<ImageView class='icon' image='/images/icons/duration.png'/>
+				<Label class='label_time' id='duration_label'/>
+				<Label class='right' id='duration'/>
+			</View>
+			<View class='option'>
+				<ImageView class='icon' id='field_icon' image='/images/icons/field_red.png'/>
+				<Label class='label' id='field_label'/>
+				<Label id='unknown_field'/>
+				<Label id='new_calibration'/>
+				<Label id='known_field'/>
+				<Label id='location_based'/>
+				<ImageView id='field_valid'/>
+			</View>
+			<View class='option'>
+				<ImageView class='icon' image='/images/icons/challenge.png'/>
+				<Label class='label' id='result_label'/>
+				<View class='right' id='results'>
+					<Label id='win' onClick='onClickResult' />
+					<Label id='draw' onClick='onClickResult' />
+					<Label id='lost' onClick='onClickResult' />
+				</View>
+			</View>
+			<View class='option'>
+				<ImageView class='icon' image='/images/icons/ball.png'/>
+				<Label class='label' id='goals_label'/>
+			</View>	
+			<View class='view vertical' id='all_goals' >
+				<View class='view horizontal'>
+					<Label class='goals' text='0' onClick='onClickGoals' />
+					<Label class='goals' text='1' onClick='onClickGoals' />
+					<Label class='goals' text='2' onClick='onClickGoals' />
+					<Label class='goals' text='3' onClick='onClickGoals' />
+				</View>
+				<View class='view horizontal'>
+					<Label class='goals' text='4' onClick='onClickGoals' />
+					<Label class='goals' text='5' onClick='onClickGoals' />
+					<Label class='goals' text='6' onClick='onClickGoals' />
+					<Label class='goals' text='7' onClick='onClickGoals' />
+				</View>	
+				<View class='view horizontal'>
+					<Label class='goals' text='8' onClick='onClickGoals' />
+					<Label class='goals' text='9' onClick='onClickGoals' />
+					<Label class='goals' text='10' onClick='onClickGoals' />
+					<Label class='goals' text='11' onClick='onClickGoals' />
+				</View>	
+			</View>	
+		</ScrollView>
+		<View class='controls'>
+			<Label class='button' id='cancel' onClick='onClickDeleteGame' />
+			<Label class='button' id='save' onClick='onClickSendGame' />
+		</View>
+	</View>
+</Alloy>

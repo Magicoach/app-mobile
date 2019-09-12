@@ -1,0 +1,44 @@
+'#locker':{
+	height:Ti.UI.FILL,
+	width:Ti.UI.FILL,
+	zIndex:1,
+	visible:false,
+	touchEnabled:true,
+	backgroundColor:Alloy.CFG.colors.transparent
+}
+'#background':{
+	backgroundColor:Alloy.CFG.colors.dark,
+	opacity:0.75,
+	top:0,
+	bottom:72
+}
+'#view':{
+	height:72,
+	bottom:0,
+	backgroundColor:Alloy.CFG.colors.dark
+}
+'#button':{
+	left:14,
+	width:48,
+	height:48,
+	borderWidth:0,
+	borderRadius:24,
+	borderColor:Alloy.CFG.colors.transparent,
+	backgroundImage:'/images/ui/unlock.png',
+	zIndex:2
+}
+'#title':{
+	height:50,
+	left:12,
+	right:12,
+	backgroundColor:Alloy.CFG.colors.darkest,
+	font:{
+		fontSize:22,
+		fontFamily:'GothamRnd-Book'
+	},
+	textAlign:'center',
+	text:L('unlock'),
+	borderWidth:0,
+	borderRadius:25,
+	zIndex:1
+}

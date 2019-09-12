@@ -1,0 +1,33 @@
+<Alloy>
+	<View id='view'>
+		<View id='vertical'>
+			<View id='category'/>
+			<View id='container_paid' onClick='onClickPaidDescription'>
+				<ImageView class='logo' left='20' />
+				<Label id='paid_description'/>
+				<ImageView class='logo' right='20' />
+			</View>
+			<View id='columns'>
+				<View class='left'>
+					<View id='dates' onClick='onClickDateHeader'>
+					 	<View class='horizontal view'>
+						 	<ImageView class='date'/>
+							<Label class='dates_view' id='select'/>
+							<View class='arrow'/>
+						</View>
+					</View>
+				</View>
+				<View class='right' id='order'>
+					<Label class='labels' id='total' onClick='onClickOrder' />
+					<Label class='labels' id='avg' onClick='onClickOrder' />
+					<Label class='labels' id='max' onClick='onClickOrder' />
+				</View>
+			</View>
+			<ScrollableView id='content'>
+				<ScrollView id='classification'/>
+				<ScrollView id='times' />
+			</ScrollableView>
+		</View>
+		<View id='footer'/>
+	</View>
+</Alloy>

@@ -1,0 +1,21 @@
+'#view':{
+	height:38
+}
+'.wrap':{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	layout:'horizontal'
+}
+'#icon':{
+	height:16,
+	width:16,
+	right:6
+}
+'#title':{
+	color:Alloy.CFG.colors.white,
+	font:{
+		fontSize:12,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	}
+}

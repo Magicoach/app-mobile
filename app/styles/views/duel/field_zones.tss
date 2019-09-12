@@ -1,0 +1,151 @@
+'#view':{
+	scrollType:'vertical'
+}
+'.title':{
+	top:0,
+	height:37,
+	width:Ti.UI.FILL,
+	textAlign:'center',
+	text:L('field_zones'),
+	font:{
+		fontSize:14,
+		fontWeight:'normal',
+		fontFamily:'GothamRnd-Book'
+	},
+	color:Alloy.CFG.colors.darkest
+}
+'.winner_wrap':{
+	top:6,
+	width:26,
+	height:26,
+	borderRadius:13,
+	borderWidth:1,
+	borderColor:Alloy.CFG.colors.transparent
+}
+'.winner_icon':{
+	image:'/images/menu/cup.png'
+}
+'.winner_text':{
+	top:12,
+	font:{
+		fontSize:12,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'.border':{
+	top:37,
+	height:1,
+	left:12,
+	right:12,
+	backgroundColor:Alloy.CFG.colors.lightGrey
+}
+'#content':{
+	top:45,
+	height:Ti.UI.SIZE
+}
+'.icons':{
+	width:32,
+	height:32,
+	borderRadius:16,
+	borderWidth:1,
+	borderColor:Alloy.CFG.colors.white,
+	backgroundColor:Alloy.CFG.colors.darkest
+}
+'#user':{
+	left:16,
+	bottom:30
+},
+'#friend':{
+	right:16,
+	bottom:30
+}
+'#field_container':{
+	height:314
+}
+'#field':{
+	height:314,
+	width:197,
+	backgroundImage:'/images/graphs/field.png'
+}
+'.light':{
+	backgroundColor:Alloy.CFG.colors.light,
+	font:{
+		fontSize:14,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	},
+	textAlign:'center',
+	color:Alloy.CFG.colors.white
+}
+'.darkest':{
+	backgroundColor:Alloy.CFG.colors.darkest,
+	font:{
+		fontSize:14,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	},
+	textAlign:'center',
+	color:Alloy.CFG.colors.white
+}
+'.wrap':{
+	height:294,
+	width:197,
+	layout:'vertical'
+}
+'.line':{
+	height:98
+}
+'.left':{
+	left:0,
+	width:64,
+	zIndex:1
+}
+'.text':{
+	top:2,
+	font:{
+		fontSize:11,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	},
+	textAlign:'center',
+	color:Alloy.CFG.colors.darkGrey
+}
+'.desc':{
+	top:2,
+	font:{
+		fontSize:11,
+		fontWeight:'normal',
+		fontFamily:'GothamRnd-Book'
+	},
+	color:Alloy.CFG.colors.grey,
+	textAlign:'center',
+	text:L('km')
+}
+'.center':{
+	height:36,
+	zIndex:2,
+	backgroundColor:Alloy.CFG.colors.white,
+	layout:'vertical'
+}
+'.right':{
+	right:0,
+	width:64,
+	zIndex:1
+}
+'.medal':{
+	width:26,
+	height:26,
+	borderRadius:13,
+	borderWidth:1
+}
+'.win':{
+	width:50,
+	height:16,
+	font:{
+		fontSize:10,
+		fontFamily:'GothamRnd-Book'
+	},
+	textAlign:'center',
+	text:''
+}

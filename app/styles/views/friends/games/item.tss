@@ -1,0 +1,90 @@
+'#item':{
+	height:64,
+	backgroundColor:Alloy.CFG.colors.white
+}
+'#item[platform=ios]':{
+	selectionStyle:Ti.UI.iOS.TableViewCellSelectionStyle.NONE
+}
+'#name':{
+	textAlign:'left',
+	left:48,
+	top:14,
+	right:66,
+	height:18,
+	color:Alloy.CFG.colors.darkGrey,
+	font:{
+		fontSize:14,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'#date':{
+	textAlign:'right',
+	top:16,
+	right:20,
+	height:18,
+	color:Alloy.CFG.colors.grey,
+	font:{
+		fontSize:15,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'#bottom':{
+	bottom:8,
+	left:45,
+	height:17,
+	layout:'horizontal'
+}
+'#image':{
+	top:10,
+	left:10,
+	height:28,
+	width:28,
+	borderRadius:14,
+	borderWidth:1,
+	borderColor:Alloy.CFG.colors.black,
+}
+'#goals':{
+	'textAlign':'left',
+	'color':Alloy.CFG.colors.light,
+	'font':{
+		'fontSize':13,
+		'fontWeight':'bold',
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'#ball':{
+	'width':17,
+	'left':2,
+	'height':17,
+	'image':'/images/icons/ball.png'
+}
+'#points':{
+	'left':6,
+	'textAlign':'left',
+	'color':Alloy.CFG.colors.gold,
+	'font':{
+		'fontSize':13,
+		'fontWeight':'bold',
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'#field':{
+	'color':Alloy.CFG.colors.grey,
+	'left':8,
+	'font':{
+		'fontSize':12,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'#logo_gold': {
+	top:12,
+	right:15,
+	backgroundColor:Alloy.CFG.colors.transparent,
+	borderWidth:1,
+	borderColor:Alloy.CFG.colors.lightGold,
+	borderRadius:14,
+	width:28,
+	height:28,
+	image:'/images/medals/gold.png',
+	visible:false
+}

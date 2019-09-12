@@ -1,0 +1,85 @@
+<Alloy>
+	<ScrollView id='view' class='scroll'>
+		<View class='winner_wrap' id='left_wrap' left='10'>
+			<ImageView class='winner_icon'/>
+		</View>
+		<Label class='winner_text' id='left_text' left='42'/>
+		<Label class='title'/>
+		<View class='winner_wrap' id='right_wrap' right='10'>
+			<ImageView class='winner_icon'/>
+		</View>
+		<Label class='winner_text' id='right_text' right='42'/>
+		<Label class='title'/>
+		<View class='border'/>
+		<View id='content'>
+			<View id='field_container'>
+				<View id='field'>
+					<View class='wrap'>
+						<View class='line'>
+							<View class='left'>
+								<Label class='light' id='user_attack'/>
+							</View>
+							<View class='center' width='66'>
+								<Label class='text' id='attack'/>
+								<Label class='desc'/>
+							</View>
+							<View class='right'>
+								<Label class='darkest' id='friend_attack'/>
+							</View>
+						</View>
+						<View class='line'>
+							<View class='left'>
+								<Label class='light' id='user_middle'/>
+							</View>
+							<View class='center' width='88'>
+								<Label class='text' id='middle'/>
+								<Label class='desc'/>
+							</View>
+							<View class='right'>
+								<Label class='darkest' id='friend_middle'/>
+							</View>
+						</View>
+						<View class='line'>
+							<View class='left'>
+								<Label class='light' id='user_defense'/>
+							</View>
+							<View class='center' width='66'>
+								<Label class='text' id='defense'/>
+								<Label class='desc'/>
+							</View>
+							<View class='right'>
+								<Label class='darkest' id='friend_defense'/>
+							</View>
+						</View>
+					</View>
+				</View>
+				<View class='medal' id='medal_left_attack' left='12' top='46'>
+					<ImageView image='/images/zones/attack.png'/>
+				</View>
+				<Label class='win' id='win_left_attack' left='0' top='76'/>
+				<View class='medal' id='medal_left_middle' left='12' top='144'>
+					<ImageView image='/images/zones/middle.png'/>
+				</View>
+				<Label class='win' id='win_left_middle' left='0' top='174'/>
+				<View class='medal' id='medal_left_defense' left='12' top='244'>
+					<ImageView image='/images/zones/defense.png'/>
+				</View>
+				<Label class='win' id='win_left_defense' left='0' top='274'/>
+				<View class='medal' id='medal_right_attack' right='12' top='46'>
+					<ImageView image='/images/zones/attack.png'/>
+				</View>
+				<Label class='win' id='win_right_attack' right='0' top='76'/>
+				<View class='medal' id='medal_right_middle' right='12' top='144'>
+					<ImageView image='/images/zones/middle.png'/>
+				</View>
+				<Label class='win' id='win_right_middle' right='0' top='174'/>
+				<View class='medal' id='medal_right_defense' right='12' top='244'>
+					<ImageView image='/images/zones/defense.png'/>
+				</View>
+				<Label class='win' id='win_right_defense' right='0' top='274'/>
+			</View>
+			<!--View class='icons' id='user'/-->
+			<!--View class='icons' id='friend'/-->
+		</View>
+	</ScrollView>
+</Alloy>

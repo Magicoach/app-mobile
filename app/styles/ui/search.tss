@@ -1,0 +1,32 @@
+'#search':{
+	height:38,
+	left:32,
+	right:32,
+	bottom:8,
+	backgroundColor:Alloy.CFG.colors.white,
+	borderColor:Alloy.CFG.colors.lightGrey,
+	borderWidth:1,
+	borterRadius:0
+}
+'#field':{
+	left:6,
+	right:52,
+	height:38,
+	textAlign:'left',
+	color:Alloy.CFG.colors.darkGrey,
+	borderWidth:0,
+	font:{
+		fontSize:14,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'#submit':{
+	backgroundColor:Alloy.CFG.colors.green,
+	right:0,
+	height:38,
+	width:48,
+	image:'/images/ui/search.png',
+	opacity:0.75,
+	touchEnabled:false
+}

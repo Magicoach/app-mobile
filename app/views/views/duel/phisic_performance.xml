@@ -1,0 +1,32 @@
+<Alloy>
+	<ScrollView id='view' class='scroll'>
+		<View class='winner_wrap' id='left_wrap' left='10'>
+			<ImageView class='winner_icon'/>
+		</View>
+		<Label class='winner_text' id='left_text' left='42'/>
+		<Label class='title'/>
+		<View class='winner_wrap' id='right_wrap' right='10'>
+			<ImageView class='winner_icon'/>
+		</View>
+		<Label class='winner_text' id='right_text' right='42'/>
+		<Label class='title'/>
+		<View class='border'/>
+		<View id='content'>
+			<View class='points'>
+				<View class='wrap_view' left='12'>
+					<View class='wrap_medal' id='user_medal'>
+						<ImageView id='user_icon'/>
+					</View>
+					<Label class='text_medal' id='user_text'/>
+				</View>
+				<Label id='title'/>
+				<View class='wrap_view' right='12'>
+					<View class='wrap_medal' id='friend_medal'>
+						<ImageView id='friend_icon'/>
+					</View>
+					<Label class='text_medal' id='friend_text'/>
+				</View>
+			</View>
+		</View>
+	</ScrollView>
+</Alloy>

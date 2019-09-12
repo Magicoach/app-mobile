@@ -1,0 +1,12 @@
+<Alloy>
+	<View id='popup'>
+		<View class='controls'>
+			<Label class='title' id='title'/>
+			<Label class='text' id='text'/>
+			<Label class='text' id='desc'/>
+			<View id='button' onClick='onClickClose'>
+				<ImageView id='icon' image='/images/icons/yes.png' />
+			</View>
+		</View>
+	</View>
+</Alloy>

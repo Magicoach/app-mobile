@@ -1,0 +1,9 @@
+<Alloy>
+	<View id='locker'>
+		<View id='background'/>
+		<View id='view'>
+			<View id='button'/>
+			<Label id='title'/>
+		</View>
+	</View>
+</Alloy>

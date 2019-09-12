@@ -1,0 +1,29 @@
+'#view':{
+	width:Ti.UI.SIZE,
+	height:240
+}
+'.title':{
+	height:30,
+	width:Ti.UI.SIZE,
+	text:'-',
+	textAlign:'center',
+	font: {
+		fontSize:12,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'.line':{
+	left:10,
+	right:10,
+	height:1,
+	backgroundColor:Alloy.CFG.colors.dark
+}
+'#distancegraph':{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE
+}
+'#velocitygraph':{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE
+}

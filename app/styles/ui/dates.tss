@@ -1,0 +1,25 @@
+'#view':{
+	backgroundColor:Alloy.CFG.colors.white,
+	height:36
+}
+'#date':{
+	color:Alloy.CFG.colors.green,
+	font:{
+		fontSize:14,
+		fontFamily:'GothamRnd-Book'
+	},
+	'width':Ti.UI.FILL,
+	'textAlign':'center',
+	'height':36
+}			
+'#logo_gold': {
+	backgroundColor:Alloy.CFG.colors.transparent,
+	borderWidth:1,
+	borderColor:Alloy.CFG.colors.lightGold,
+	borderRadius:14,
+	width:28,
+	height:28,
+	right:70,
+	image:'/images/medals/gold.png',
+	visible:false
+}

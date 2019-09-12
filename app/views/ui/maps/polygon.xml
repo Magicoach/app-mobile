@@ -1,0 +1,12 @@
+<Alloy>
+	<View id='background'>
+		<WebView id='html' onLoad='onLoadWeb'>
+			<View class='horizontal'>
+				<Label id='a' class='label' />
+				<Label id='b' class='label' />
+				<Label id='c' class='label' />
+				<Label id='d' class='label' />
+			</View>
+		</WebView>		
+	</View>
+</Alloy>

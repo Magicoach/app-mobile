@@ -1,0 +1,15 @@
+<Alloy>
+	<View id='view'>
+		<Label id='place'/>
+		<View class='container'>
+			<ImageView id='image'/>
+			<ImageView id='friend'/>
+		</View>	
+		<Label id='name'/>
+		<View class='right'>
+			<Label class='info' id='total'/>
+			<Label class='info' id='avg'/>
+			<Label class='info' id='max'/>
+		</View>
+	</View>
+</Alloy>

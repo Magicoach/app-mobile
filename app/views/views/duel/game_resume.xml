@@ -1,0 +1,61 @@
+<Alloy>
+	<ScrollView id='view' class='scroll'>
+		<Label class='title'/>
+		<View class='border'/>
+		<View id='content'>
+			<!-- <View id='report_header'/> -->
+			<View class='report_content_small'>
+				<View class='report_wrap'>
+					<View class='report_left' id='user_goals'/>
+					<Label class='report_title' id='title_goals'/>
+					<View class='report_right' id='friend_goals'/>
+				</View>
+			</View>
+			<View class='report_content_small'>
+				<View class='report_wrap'>
+					<View class='report_left' id='user_game_result'/>
+					<Label class='report_title' id='title_game_result'/>
+					<View class='report_right' id='friend_game_result'/>
+				</View>
+			</View>
+			<View class='report_border'/>
+			<View class='report_border_white'/>
+			<View class='report_content'>
+				<View class='report_wrap'>
+					<View class='report_left' id='user_phisic'/>
+					<Label class='report_title' id='title_phisic'/>
+					<View class='report_right' id='friend_phisic'/>
+				</View>
+			</View>
+			<View class='report_border_white'/>
+			<View class='report_content'>
+				<View class='report_wrap'>
+					<View class='report_left' id='user_field_occupation'/>
+					<Label class='report_title' id='title_field_occupation'/>
+					<View class='report_right' id='friend_field_occupation'/>
+				</View>
+			</View>
+			<View class='report_border_white'/>
+			<View class='report_content'>
+				<View class='report_wrap'>
+					<View class='report_left' id='user_field_zones'/>
+					<Label class='report_title' id='title_field_zones'/>
+					<View class='report_right' id='friend_field_zones'/>
+				</View>
+			</View>
+			<View class='report_border_white'/>
+			<View class='report_content'>
+				<View class='report_wrap'>
+					<View class='report_left' id='user_game_style'/>
+					<Label class='report_title' id='title_game_style'/>
+					<View class='report_right' id='friend_game_style'/>
+				</View>
+			</View>
+			<View class='report_border_white'/>
+			<!-- <View class='report_border'/>
+			<View class='report_border_white'/> -->
+			
+			<!-- <View class='report_border'/> -->
+		</View>
+	</ScrollView>
+</Alloy>

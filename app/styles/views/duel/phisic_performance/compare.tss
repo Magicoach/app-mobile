@@ -1,0 +1,72 @@
+'#medal':{
+	height:45
+}
+'#wrap':{
+	borderWidth:1
+}
+'.values':{
+	width:106
+}
+'#user':{
+	left:12
+}
+'#friend':{
+	right:12
+}
+'.left':{
+	left:0
+}
+'.right':{
+	right:0
+}
+'Label':{
+	color:Alloy.CFG.colors.dark
+}
+'#title':{
+	font:{
+		fontSize:11,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	},
+	color:Alloy.CFG.colors.darkGrey
+}
+'#subtitle':{
+	font:{
+		fontSize:11,
+		fontWeight:'normal',
+		fontFamily:'GothamRnd-Book'
+	},
+	color:Alloy.CFG.colors.grey
+}
+'.bar':{
+	height:26,
+	width:64,
+	backgroundColor:Alloy.CFG.colors.whiteSmoke,
+}
+'.bar_bg':{
+	height:26,
+	width:0
+}
+'.bar_text':{
+	color:Alloy.CFG.colors.white,
+	font:{
+		fontSize:12,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	},
+	text:''
+}
+'#user_value':{
+	right:6
+}
+'#user_bg':{
+	right:0,
+	backgroundColor:Alloy.CFG.colors.light
+}
+'#friend_value':{
+	left:6
+}
+'#friend_bg':{
+	left:0,
+	backgroundColor:Alloy.CFG.colors.dark
+}

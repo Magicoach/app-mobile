@@ -1,0 +1,9 @@
+<Alloy>
+	<TableViewRow id='item'>
+		<ImageView id='icon'/>
+		<Label id='name'/>
+		<View id='status'>
+			<ImageView id='status_icon'/>
+		</View>
+	</TableViewRow>
+</Alloy>

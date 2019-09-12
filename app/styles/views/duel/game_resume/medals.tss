@@ -1,0 +1,12 @@
+'#medal':{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	layout:'vertical'
+}
+'#wrap':{
+	borderWidth:1
+}
+'#title':{
+	height:Ti.UI.FILL,
+	color:Alloy.CFG.colors.dark
+}

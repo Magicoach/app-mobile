@@ -1,0 +1,46 @@
+'#item':{
+	height:42,
+	backgroundColor:Alloy.CFG.colors.white,
+}
+'.container':{
+	left:10,
+	height:34,
+	width:34,
+	backgroundColor:Alloy.CFG.colors.transparent
+}
+'#icon':{
+	left:0,
+	image:'/images/picture.png',
+	borderWidth:1,
+	borderColor:Alloy.CFG.colors.black,
+	borderRadius:13,
+	height:26,
+	width:26
+}
+'#friend':{
+	height:12,
+	width:12,
+	right:0,
+	bottom:0,
+	visible:false,
+	image:'/images/header/friends.png',
+	backgroundColor:Alloy.CFG.colors.transparent
+}
+'#name':{
+	left:46,
+	color:Alloy.CFG.colors.darkGrey
+},
+'#status':{
+	right:0,
+	width:50,
+	height:42
+}
+'#status_icon':{
+	right:12,
+	width:18,
+	height:18,
+	borderRadius:9,
+	borderWidth:0,
+	backgroundColor:Alloy.CFG.colors.light
+
+}

@@ -1,0 +1,37 @@
+<Alloy>
+	<View id='view' class='vertical'>
+		<Label class='title' id='tactics'/>
+		<View class='line'/>
+		<View id='content'>
+			<View class='horizontal'>
+				<View class='vertical' width='50%'>
+					<View class='view horizontal'>
+						<View width='33%' class='view vertical'>
+							<Label text='Defense' />
+						</View>
+						<View width='34%' class='view vertical'>
+							<Label text='Mid' />
+						</View>
+						<View width='33%' class='view vertical'>
+							<Label text='Attack' />
+						</View>
+					</View>
+					<Label text='Positional Map' />
+					<View id='user_map'/>
+				</View>
+				<View class='vertical' width='50%'>
+					<View class='view horizontal'>
+						<View width='50%' class='view vertical'>
+							<Label text='Defender' />
+						</View>
+						<View width='50%' class='view vertical'>
+							<Label text='Attacker' />
+						</View>
+					</View>
+					<Label text='Field Zones' />
+					<View id='field'/>
+				</View>		
+			</View>
+		</View>		
+	</View>
+</Alloy>

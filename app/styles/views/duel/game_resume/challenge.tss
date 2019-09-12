@@ -1,0 +1,102 @@
+'#challenge':{
+	height:87,
+	backgroundImage:'/images/report_bg.png'
+}
+'.title':{
+	top:0,
+	height:37,
+	width:Ti.UI.FILL,
+	textAlign:'center',
+	text:L('game_resume'),
+	color:Alloy.CFG.colors.darkest
+}
+'.border':{
+	top:38,
+	height:1,
+	left:12,
+	right:12,
+	backgroundColor:Alloy.CFG.colors.lightGrey
+}
+'#content':{
+	top:39,
+	height:Ti.UI.SIZE,
+	layout:'vertical'
+}
+'#winner_icon':{
+	top:6,
+	width:26,
+	height:26,
+	borderRadius:13,
+	borderWidth:1,
+	borderColor:'#c6981b',
+	backgroundColor:'#cfa93f',
+	visible:false
+}
+'.winner_icon':{
+	image:'/images/menu/cup.png'
+}
+'#winner_text':{
+	top:12,
+	text:L('winner'),
+	color:'#c6981b',
+	font:{
+		fontSize:12,
+		fontWeight:'bold'
+	},
+	visible:false
+}
+'#style':{
+	text:L('game_style'),
+}
+'.report_content':{
+	height:87,
+	backgroundColor:Alloy.CFG.colors.white
+}
+'.report_border':{
+	height:1,
+	backgroundColor:Alloy.CFG.colors.lightGrey
+}
+'.report_wrap':{
+	left:16,
+	right:16
+}
+'.report_left':{
+	left:0,
+	width:100
+}
+'.report_center':{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	layout:'vertical'
+}
+'.report_header_title':{
+	color:'#3b3b3b',
+	font:{
+		fontSize:15,
+		fontWeight:'bold'
+	},
+	bottom:6
+}
+'.report_title':{
+	color:'#3b3b3b',
+	font:{
+		fontSize:12,
+		fontWeight:'bold'
+	}
+}
+'.report_right':{
+	right:0,
+	width:100
+}
+'.medal':{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	layout:'vertical'
+}
+'.wrap':{
+	borderWidth:1,
+	borderColor:'transparent'
+}
+'.title':{
+	color:Alloy.CFG.colors.grey
+}

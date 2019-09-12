@@ -1,0 +1,13 @@
+<Alloy>
+	<View id='view'>
+		<View class='vertical'>
+			<View id='options'>
+				<Label id='games' onClick='onClickGamesTab'/>
+				<Label id='friends' onClick='onClickFriendsTab'/>
+				<Label id='search' onClick='onClickSearchTab'/>
+			</View>
+			<ScrollableView class='pager' id='container' />
+		</View>
+		<Label id='invitation' onClick='onClickSendInvitation' />
+	</View>
+</Alloy>

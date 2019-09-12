@@ -1,0 +1,43 @@
+'#options':{
+	top:0,
+	height:38,
+	backgroundColor:Alloy.CFG.colors.green
+}
+'Label':{
+	height:38,
+	textAlign:'center',
+	color:Alloy.CFG.colors.white,
+	font:{
+		fontSize:14,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'#container':{
+	bottom:38
+}
+'#friends':{
+	left:0,
+	text:L('my_friends'),
+	backgroundColor:Alloy.CFG.colors.green
+}
+'#games':{
+	text:L('matches'),
+	backgroundColor:Alloy.CFG.colors.light
+}
+'#search':{
+	right:0,
+	text:L('search'),
+	backgroundColor:Alloy.CFG.colors.light
+}
+'#invitation':{
+	bottom:0,
+	width:Ti.UI.FILL,
+	text:L('invite_to_magicoach'),
+	backgroundColor:Alloy.CFG.colors.light,
+	font:{
+		fontSize:16,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	}
+}

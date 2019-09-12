@@ -1,0 +1,30 @@
+<Alloy>
+	<ScrollView id='view' class='scroll'>
+		<View class='winner_wrap' id='left_wrap' left='10'>
+			<ImageView class='winner_icon'/>
+		</View>
+		<Label class='winner_text' id='left_text' left='42'/>
+		<Label class='title'/>
+		<View class='winner_wrap' id='right_wrap' right='10'>
+			<ImageView class='winner_icon'/>
+		</View>
+		<Label class='winner_text' id='right_text' right='42'/>
+		<View class='border'/>
+		<View id='content'>
+				<View class='horizontal'>
+					<View class='vertical' id='left_map'>
+						<Label class='percent' id='user_percent'/>
+						<View class='br'/>
+						<View class='br'/>
+						<View class='container' id='user_map'/>
+					</View>
+					<View class='vertical' id='right_map'>
+						<Label class='percent' id='friend_percent'/>
+						<View class='br'/>
+						<View class='br'/>
+						<View class='container' id='friend_map'/>
+					</View>		
+				</View>	
+		</View>
+	</ScrollView>
+</Alloy>

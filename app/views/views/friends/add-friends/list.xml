@@ -1,0 +1,14 @@
+<Alloy>
+	<View id='view'>
+		<Label id='pending_label'/>
+		<View class='line'/>
+		<ScrollView class='view vertical'>
+			<TableView id='pending_list' onClick='onClickSearchList' />
+		</ScrollView>
+		<Label id='friends_label'/>
+		<View class='line'/>
+		<ScrollView class='vertical'>
+			<TableView id='friend_list' />
+		</ScrollView>
+	</View>
+</Alloy>

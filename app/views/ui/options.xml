@@ -1,0 +1,6 @@
+<Alloy>
+	<View id='view' onClick='onClickChangeRankingOption' >
+		<Label id='title'/>
+		<View class='border'/>
+	</View>
+</Alloy>

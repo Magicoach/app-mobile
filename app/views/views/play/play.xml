@@ -1,0 +1,35 @@
+<Alloy>
+	<View id='view'>
+		<ScrollView id='content'>
+			<View id='options'>
+				<View class='option'>
+					<ImageView class='icon' image='/images/icons/start.png'/>
+					<Label class='label' id='start_label'/>
+					<Label class='right' id='start'/>
+				</View>
+				<View class='option'>
+					<ImageView class='icon' image='/images/icons/now.png'/>
+					<Label class='label' id='now_label'/>
+					<Label class='right' id='now'/>
+				</View>
+			</View>
+		</ScrollView>
+		<View id='timer'>
+			<View class='line'>
+					<ImageView image='/images/controls/clock.png'/>
+					<Label id='duration'/>
+				</View>
+				<Label id='time'/>
+			</View>
+		<View id='controls'>
+			<View class='view horizontal'>
+				<View id='stop' onClick='onClickStop'>
+					<ImageView image='/images/controls/stoped.png'/>
+				</View>
+				<View id='play' onClick='onClickPlay'>
+					<ImageView image='/images/controls/play.png'/>
+				</View>
+			</View>
+		</View>
+	</View>
+</Alloy>

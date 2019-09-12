@@ -1,0 +1,8 @@
+<Alloy>
+	<View id='medal'>
+		<View id='wrap'>
+			<ImageView id='icon'/>
+		</View>
+		<Label id='title'/>
+	</View>
+</Alloy>

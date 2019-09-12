@@ -1,0 +1,34 @@
+'#view':{
+	backgroundColor:Alloy.CFG.colors.white,
+	height:36
+}
+'#time':{
+	left:12,
+	textAlign:'left',
+	color:Alloy.CFG.colors.darkGrey,
+	font:{
+		fontSize:12,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'#points':{
+	right:20,
+	textAlign:'right',
+	color:Alloy.CFG.colors.green,
+	font:{
+		fontSize:12,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'#logo_gold': {
+	backgroundColor:Alloy.CFG.colors.transparent,
+	borderWidth:1,
+	borderColor:Alloy.CFG.colors.lightGold,
+	borderRadius:14,
+	width:28,
+	height:28,
+	right:15,
+	image:'/images/medals/gold.png',
+	visible:false
+}

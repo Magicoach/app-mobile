@@ -1,0 +1,6 @@
+<Alloy>
+	<View id='start'>
+		<ScrollView id='buttons'/>
+		<Label id='footer' onClick='onClickFooter' />
+	</View>
+</Alloy>

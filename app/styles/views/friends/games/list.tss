@@ -1,0 +1,24 @@
+'#view':{
+	height:Ti.UI.SIZE
+}
+'#games_list':{
+	top:0,
+	bottom:38,
+	height:Ti.UI.SIZE,
+	scrollType:'vertical',
+	layout:'vertical',
+	zIndex:1
+}
+'#empty':{
+	zIndex:2,
+	color:Alloy.CFG.colors.grey,
+	font:{
+		fontSize:32,
+		fontFamily:'GothamRnd-Book'
+	},
+	left:32,
+	right:32,
+	text:L('load_notif'),
+	textAlign:'center',
+	touchEnabled:false
+}

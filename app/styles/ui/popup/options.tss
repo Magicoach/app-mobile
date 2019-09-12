@@ -1,0 +1,66 @@
+'#popup':{
+	backgroundColor:Alloy.CFG.colors.darkest,
+	width:Ti.UI.FILL,
+	opacity:0.9
+}
+'.controls':{
+	'height':Ti.UI.SIZE,
+	'layout':'vertical',
+	'left':40,
+	'right':40
+}
+'.horizontal':{
+	'height':Ti.UI.SIZE,
+	'width':Ti.UI.SIZE,
+	'layout':'horizontal'
+}
+'#title':{
+	'color':Alloy.CFG.colors.white,
+	'textAlign':'center',
+	'font':{
+		fontSize:22,
+		fontFamily:'GothamRnd-Book'
+	},
+	'bottom':20
+}
+'#text':{
+	'color':Alloy.CFG.colors.white,
+	'textAlign':'center',
+	'font':{
+		fontSize:14,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'.button':{
+	'height':Ti.UI.SIZE,
+	'width':Ti.UI.SIZE,
+	'layout':'horizontal'
+}
+'.border':{
+	'height':40,
+	'width':40,
+	'borderRadius':20,
+	'borderWidth':2,
+	'borderColor':Alloy.CFG.colors.white
+}
+'.icon':{
+	'height':30,
+	'width':30
+}
+'.text':{
+	'color':Alloy.CFG.colors.white,
+	'width':Ti.UI.SIZE,
+	'textAlign':'left',
+	'font':{
+		fontSize:20,
+		fontFamily:'GothamRnd-Book'
+	},
+	'left':12,
+	'right':12
+}
+'#yes_text':{
+	'text':L('yes')
+}
+'#no_text':{
+	'text':L('no')
+}

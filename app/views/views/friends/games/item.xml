@@ -1,0 +1,14 @@
+<Alloy>
+	<View id='item' onClick='onClickItem'>
+		<ImageView id='image'/>
+		<Label id='name'/>
+		<ImageView id='logo_gold' />
+		<Label id='date'/>
+		<View id='bottom'>
+			<Label id='goals'/>
+			<ImageView id='ball'/>
+			<Label id='points'/>
+			<Label id='field'/>
+		</View>
+	</View>
+</Alloy>

@@ -1,0 +1,16 @@
+<Alloy>
+	<View id='register'>
+		<ScrollView id='wrap'>
+			<Label id='user_text' class='label'/>
+			<TextField id='user'/>
+			<Label id='name_text' class='label'/>
+			<TextField id='name'/>
+			<Label id='pass_text' class='label'/>
+			<TextField id='pass' passwordMask='true'/>
+			<Label id='pass_text2' class='label'/>
+			<TextField id='pass2' passwordMask='true'/>
+			<View id='buttons'/>
+			<Label id='back' onClick='onClickBack'/>
+		</ScrollView>
+	</View>
+</Alloy>

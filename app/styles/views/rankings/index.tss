@@ -1,0 +1,141 @@
+'#view':{
+	backgroundColor:Alloy.CFG.colors.white,
+    width:Ti.UI.FILL
+}
+'#vertical':{
+	top:0,
+	bottom:37,
+	layout:'vertical'	
+}
+'#category':{
+	height:Ti.UI.SIZE,
+	layout:'horizontal',
+	backgroundColor:Alloy.CFG.colors.green
+}
+'#container_paid':{
+	top:0,
+	height:30,
+	width:Ti.UI.FILL,
+	backgroundColor:Alloy.CFG.colors.gold
+}
+'.logo': {
+	width:20,
+	height:15,
+	image:'/images/icon.png'
+}
+'#paid_description':{
+	text:L('ranking_paid_description'),
+	textAlign:'center',
+	color:Alloy.CFG.colors.white,
+	font:{
+		fontSize:14,
+		fontFamily:'GothamRnd-Book'
+	},
+}
+'#logo_gold': {
+	backgroundColor:Alloy.CFG.colors.transparent,
+	width:28,
+	height:28,
+	image:'/images/medals/gold.png'
+}
+'#columns':{
+	height:35,
+	backgroundColor:Alloy.CFG.colors.whiteSmoke
+}
+'#dates':{
+	right:135,
+	height:Ti.UI.FILL,
+	backgroundColor:Alloy.CFG.colors.transparent
+}
+'.date':{
+	width:20,
+	height:20,
+	backgroundImage:'/images/header/date.png'
+}
+'.dates_view':{
+	width:Ti.UI.SIZE,
+	color:Alloy.CFG.colors.dark,
+	font:{
+		fontSize:12,
+		fontFamily:'GothamRnd-Book'
+	},
+	left:4,
+	right:4
+}
+'#select':{
+	text:L('select_period')
+}
+'.arrow':{
+	width:13,
+	height:6,
+	backgroundImage:'/images/icons/down_green.png'
+}
+'#times':{
+	top:0,
+	layout:'vertical',
+	scrollType:'vertical',
+	backgroundColor:Alloy.CFG.colors.white
+}
+'.left':{
+	left:0,
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	layout:'horizontal',
+	backgroundColor:Alloy.CFG.colors.transparent
+}
+'.right':{
+	right:0,
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	layout:'horizontal',
+	backgroundColor:Alloy.CFG.colors.transparent
+}
+'#total':{
+	text:L('total')
+}
+'#avg':{
+	text:L('med'),
+	color:Alloy.CFG.colors.darkest,
+	font:{
+		fontSize:12,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'#max':{
+	text:L('max')
+}
+'.labels':{
+	height:Ti.UI.FILL,
+	width:45,
+	textAlign:'center',
+	font:{
+		fontSize:12,
+		fontWeight:'normal',
+		fontFamily:'GothamRnd-Book'
+	},
+	color:Alloy.CFG.colors.dark
+}
+'#content':{
+	width:Ti.UI.FILL,
+	scrollingEnabled:false,
+	layout:'horizontal',
+	page:0,
+	backgroundColor:Alloy.CFG.colors.white
+}
+'#classification':{
+	top:0,
+	scrollType:'vertical',
+	layout:'vertical'
+}
+'#times':{
+	top:0,
+	layout:'vertical',
+	scrollType:'vertical'
+}
+'#footer':{
+	height:Ti.UI.SIZE,
+	bottom:0,
+	backgroundColor:Alloy.CFG.colors.light,
+	layout:'horizontal'
+}

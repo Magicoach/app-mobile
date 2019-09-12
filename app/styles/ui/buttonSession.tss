@@ -1,0 +1,25 @@
+'#view':{
+	top:20,
+	height:42,
+	width:Ti.UI.FILL
+}
+'#button':{
+	height:42,
+	left:20,
+	right:20,
+	width:Ti.UI.FILL,
+	borderRadius:10,
+	backgroundColor:Alloy.CFG.colors.gold
+}
+'#title':{
+	left:10,
+	right:10,
+	text:'',
+	textAlign:'center',
+	color:Alloy.CFG.colors.white,
+	font:{
+		fontSize:14,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	}
+}

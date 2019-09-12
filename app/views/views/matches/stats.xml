@@ -1,0 +1,54 @@
+<Alloy>
+	<View id='view' class='vertical'>
+		<Label class='title' id='stats_label'/>
+		<View class='line'/>
+		<View class='view horizontal'>
+			<View width='25%' class='view vertical'>
+				<Label text='Game 1' />
+				<Label text='01.01.2017' />
+			</View>
+			<View width='25%' class='view vertical'>
+				<Label text='Game 2' />
+				<Label text='01.01.2017' />
+			</View>
+			<View width='25%' class='view vertical'>
+				<Label text='Game 3' />
+				<Label text='01.01.2017' />
+			</View>
+			<View width='25%' class='view vertical'>
+				<Label text='Game 4' />
+				<Label text='01.01.2017' />
+			</View>
+		</View>
+		<View class='br'/>
+		<View class='br'/>
+		<View color='black' class='view horizontal'>
+			<View width='50%' class='view vertical'>
+				<Label text='RESULTS' />
+				<View class='br'/>
+				<View class='medals' left='0'>
+					<View class='medals_inner'>
+						<Label class='stats' id='user_stats_1'/>
+						<Label class='stats' id='user_stats_2'/>
+						<Label class='stats' id='user_stats_3'/>
+						<Label class='stats' id='user_stats_4'/>
+						<Label class='stats' id='user_stats_5'/>
+					</View>
+				</View>
+			</View>
+			<View width='50%' class='view vertical'>
+				<Label text='GOALS' />
+				<View class='br'/>
+				<View class='medals' right='0'>
+					<View class='medals_inner'>
+						<Label class='stats' id='friend_stats_1'/>
+						<Label class='stats' id='friend_stats_2'/>
+						<Label class='stats' id='friend_stats_3'/>
+						<Label class='stats' id='friend_stats_4'/>
+						<Label class='stats' id='friend_stats_5'/>
+					</View>
+				</View>
+			</View>
+		</View>	
+	</View>
+</Alloy>

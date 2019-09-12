@@ -1,0 +1,28 @@
+'#view':{
+	layout:'vertical',
+	top:0,
+	bottom:38
+}
+'#search':{
+	top:20,
+	height:Ti.UI.SIZE
+}
+'#label':{
+	top:8,
+	left:12,
+	color:Alloy.CFG.colors.light,
+	font:{
+		fontSize:12,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'#line':{
+	top:8,
+	height:2,
+	backgroundColor:Alloy.CFG.colors.light
+}
+'#search_list':{
+	top:0,
+	scrollType:'vertical',
+	layout:'vertical'
+}

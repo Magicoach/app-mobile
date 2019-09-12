@@ -1,0 +1,26 @@
+<Alloy>
+	<View id='challenge'>
+		<View class='report_wrap'>
+			<View class='report_left' id='user_challenge'>
+				<View class='medal'>
+					<View class='wrap' id='wrap_user'>
+						<ImageView id='icon_user'/>
+					</View>
+					<Label class='title' id='title_user'/>
+				</View>
+			</View>				
+			<View class='report_center'>
+				<Label class='report_header_title' id='title_challenge'/>
+				<Label class='report_title' id='style'/>
+			</View>
+			<View class='report_right' id='friend_challenge'>
+				<View class='medal'>
+					<View class='wrap' id='wrap_friend'>
+						<ImageView id='icon_friend'/>
+					</View>
+					<Label class='title' id='title_friend'/>
+				</View>
+			</View>				
+		</View>
+	</View>
+</Alloy>

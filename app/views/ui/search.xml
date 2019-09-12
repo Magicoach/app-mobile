@@ -1,0 +1,6 @@
+<Alloy>
+	<View id='search'>
+		<TextField id='field' onChange='onChangeText' />
+		<ImageView id='submit' onClick='onClickSearch' />
+	</View>
+</Alloy>

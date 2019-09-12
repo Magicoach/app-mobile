@@ -1,0 +1,36 @@
+'#view':{
+	top:20,
+	height:42,
+	width:Ti.UI.FILL
+}
+'#logo_gold': {
+	top:8,
+	left:12,
+	backgroundColor:Alloy.CFG.colors.transparent,
+	borderWidth:1,
+	borderColor:Alloy.CFG.colors.lightGold,
+	borderRadius:14,
+	width:28,
+	height:28,
+	image:'/images/medals/gold.png'
+}
+'#button':{
+	height:42,
+	left:10,
+	right:20,
+	width:Ti.UI.FILL,
+	borderRadius:10,
+	backgroundColor:Alloy.CFG.colors.gold
+}
+'#title':{
+	left:10,
+	right:10,
+	text:'',
+	textAlign:'center',
+	color:Alloy.CFG.colors.white,
+	font:{
+		fontSize:14,
+		fontWeight:'normal',
+		fontFamily:'GothamRnd-Book'
+	}
+}

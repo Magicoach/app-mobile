@@ -1,0 +1,97 @@
+'#view':{
+	layout:'vertical'
+}
+'#profile':{
+	height:100,
+	width:Ti.UI.FILL,
+	backgroundColor:Alloy.CFG.colors.green
+}
+'#info':{
+	top:30,
+	bottom:10,
+	left:20,
+	right:20,
+	width:Ti.UI.FILL,
+	height:Ti.UI.FILL,
+	layout:'vertical'
+}
+'#picture':{
+	top:10,
+	left:25,
+	height:80,
+	width:80,
+	borderRadius:40,
+	BorderWidth:2,
+	image:'/images/picture.png',
+	borderColor:Alloy.CFG.colors.darkest,
+	backgroundColor:Alloy.CFG.colors.green
+}
+'#username':{
+	textAlign:'center',
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	color:Alloy.CFG.colors.white,
+	font: {
+		fontSize:18,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'#email':{
+	textAlign:'center',
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	color:Alloy.CFG.colors.white,
+	font: {
+		fontSize:12,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'.title_border':{
+	height:3,
+	backgroundColor:Alloy.CFG.colors.light
+}
+'#content':{
+	top:0,
+	backgroundColor:Alloy.CFG.colors.white,
+	layout:'vertical',
+	scrollType:'vertical'
+}
+'.form':{
+	top:10,
+	bottom:10,
+	left:20,
+	right:20,
+	height:Ti.UI.SIZE,
+	layout:'vertical'
+}
+'.field':{
+	layout:'horizontal',
+	backgroundColor:Alloy.CFG.colors.white,
+	height:38
+}
+'.label':{
+	top:0,
+	bottom:0,
+	left:0,
+	height:38,
+	width:110,
+	textAlign:'left',
+	color:Alloy.CFG.colors.light,
+	font:{
+		fontSize:14,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'.input':{
+	top:0,
+	bottom:0,
+	left:0,
+	right:0,
+	height:38,
+	width:Ti.UI.FILL,
+	textAlign:'left',
+	font:{
+		fontSize:14,
+		fontFamily:'GothamRnd-Book'
+	}
+}

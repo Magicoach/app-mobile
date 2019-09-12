@@ -1,0 +1,60 @@
+'#user':{
+	top:0,
+	height:56,
+	left:0,
+	backgroundColor:Alloy.CFG.colors.green
+}
+'#user_picture':{
+	left:10,
+	width:30,
+	height:30,
+	borderRadius:15,
+	borderWidth:1,
+	image:'/images/picture.png',
+	borderColor:Alloy.CFG.colors.light
+}
+'#user_name':{
+	left:46,
+	width:Ti.UI.SIZE,
+	color:Alloy.CFG.colors.white,
+	text:'grande teste',
+	textAlign:'left'
+}
+'.title':{
+	height:30,
+	width:Ti.UI.SIZE,
+	text:'-',
+	//backgroundColor:'black',
+	font: {
+		fontSize:12,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	},
+	textAlign:'center'
+}
+'.line':{
+	left:10,
+	right:10,
+	height:1,
+	backgroundColor:Alloy.CFG.colors.dark
+}
+'#stats':{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE
+}
+'#physical':{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE
+}
+'#tactics':{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE
+}
+'#gamestyle':{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE
+}
+'#totals':{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE
+}

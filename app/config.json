@@ -1,0 +1,38 @@
+{
+	"global": {
+		"colors": {
+			"transparent":"transparent",
+			"white":"#FFFFFF",
+			"whiteSmoke":"#F5F5F5",
+			"lightGrey":"#CCCCCC",
+			"grey":"#9E9E9E",
+			"darkGrey":"#494949",
+			"black":"#000000",
+			"blue":"#67A1C2",
+			"red":"#D04E52",
+			"lightGold":"#FFEAAF",
+			"gold":"#D2AC23",
+			"greenSmoke":"#CAF0EE",
+			"light":"#00B4B0",
+			"green":"#008886",
+			"dark":"#006664",
+			"darkest":"#042D2C"
+	    },
+	    "serverAPIUrl":"http://dev.magicoach.pt:8080",
+	    "serverAPIDevUrl": "http://dev.magicoach.pt:8081",
+	    "serverImagesUrl":"http://dev.magicoach.pt/images/",
+	    "termsAndCondition":"http://www.magicoach.com/terms/"
+	},
+	"env:development": {},
+	"env:test": {},
+	"env:production": {},
+	"os:android": {
+		"linkPro":"http://magicoach.com/pro/android",
+		"store":"https://play.google.com/store/apps/details?id=com.magicoach.magicoach"
+	},
+	"os:ios": {
+		"linkPro":"http://magicoach.com/pro/ios",
+		"store":"https://itunes.apple.com/us/app/magicoach/id1100029257"
+	},
+	"dependencies": {}
+}

@@ -1,0 +1,16 @@
+<Alloy>
+	<View id='view'>
+		<View class='vertical' id='user'>
+			<ImageView id='user_picture'/>
+			<Label id='user_name'/>
+		</View>
+		<ScrollView class='scroll' top='56'>
+			<View class='vertical' top='0'>	
+				<View id='stats' />
+				<View id='physical' />
+				<View id='tactics' />
+				<View class='br'/>		
+			</View>
+		</ScrollView>
+	</View>
+</Alloy>

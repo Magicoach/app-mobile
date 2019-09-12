@@ -1,0 +1,143 @@
+'#views': {
+	height:Ti.UI.FILL,
+	backgroundColor:Alloy.CFG.colors.white
+}
+'#menu': {
+	left:0,
+	width:180,
+	zIndex:4,
+	height:Ti.UI.FILL,
+	backgroundColor:Alloy.CFG.colors.dark
+}
+'#close_menu': {
+	top:14,
+	left:8,
+	width:40,
+	height:40
+}
+'#items': {
+	top:20,
+	left:0,
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	scrollType:'vertical',
+	layout:'vertical'
+}
+'#site': {
+	bottom:16,
+	left:16,
+	font:{
+		fontSize:12,
+		fontFamily:'GothamRnd-Book'
+	},
+	color:Alloy.CFG.colors.white,
+	textAlign:'left',
+	text:Ti.App.description
+}
+'#wrap': {
+	left:0,
+	zIndex:3,
+	width:Ti.UI.FILL,
+	height:Ti.UI.FILL,
+	backgroundColor:Alloy.CFG.colors.white,
+}
+'#locker': {
+	backgroundColor:Alloy.CFG.colors.black,
+	opacity:0.75
+}
+'#container': {
+	zIndex:2,
+	shadowColor:Alloy.CFG.colors.black,
+    shadowOffset:{x:0,y:0},
+    shadowRadius:2.5
+}
+'#header': {
+	top:0,
+	height:38,
+	width:Ti.UI.FILL,
+	backgroundColor:Alloy.CFG.colors.light
+}
+'#trigger': {
+	left:0,
+	width:Ti.UI.SIZE
+}
+'.identity':{
+	right:42,
+	color:Alloy.CFG.colors.white,
+	font:{
+		fontSize:14,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'#logo': {
+	right:12,
+	width:26,
+	height:20,
+	image:'/images/icon.png'
+}
+'#extra_menu':{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE
+}
+'#button': {
+	left:0,
+	width:17,
+	height:17,
+	image:'/images/menu.png'
+}
+'#title': {
+	left:26,
+	color:Alloy.CFG.colors.white,
+	font:{
+		fontSize:14,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	},
+	text:''
+}
+'#content': {
+	top:38,
+	bottom:0,
+	width:Ti.UI.FILL,
+	backgroundColor:Alloy.CFG.colors.white
+}
+'#info': {
+	visible:false,
+	touchEnabled:false
+}
+'.info_bg': {
+	backgroundColor:Alloy.CFG.colors.black,
+	opacity:0.75
+}
+'.info_view': {
+	left:40,
+	right:40,
+	height:210,
+	backgroundColor:Alloy.CFG.colors.white
+}
+'.info_wrap': {
+	layout:'vertical',
+	height:170
+}
+'.info_icon': {
+	image:'/images/logo.png',
+	bottom:10
+}
+'#version':{
+	bottom:10,
+	textAlign:'center',
+	font:{
+		fontSize:12,
+		fontFamily:'GothamRnd-Book'
+	},
+	color:Alloy.CFG.colors.darkGrey
+}
+'#info_site':{
+	font:{
+		fontSize:12,
+		fontFamily:'GothamRnd-Book'
+	},
+	color:Alloy.CFG.colors.green,
+	textAlign:'center'
+}

@@ -1,0 +1,21 @@
+'#view':{
+	layout:'vertical',
+	backgroundColor:Alloy.CFG.colors.green,
+	width:Ti.UI.FILL,
+	height:40
+}
+'#title':{
+	height:38,
+	color:Alloy.CFG.colors.white,
+	text:'-',
+	textAlign:'center',
+	font:{
+		fontSize:12,
+		fontWeight:'normal',
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'.border':{
+	height:2,
+	backgroundColor:Alloy.CFG.colors.dark
+}

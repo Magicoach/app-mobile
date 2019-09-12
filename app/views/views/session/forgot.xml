@@ -1,0 +1,10 @@
+<Alloy>
+	<View id='forgot'>
+		<ScrollView id='wrap'>
+			<Label id='user_text' class='label'/>
+			<TextField id='user'/>
+			<View id='buttons'/>
+			<Label id='back' onClick='onClickBack'/>
+		</ScrollView>
+	</View>
+</Alloy>

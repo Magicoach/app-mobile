@@ -1,0 +1,6 @@
+<Alloy>
+	<View id='view' onClick='onClickItem'>
+		<Label id='date'/>
+		<ImageView id='logo_gold' />
+	</View>
+</Alloy>

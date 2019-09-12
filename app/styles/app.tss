@@ -1,0 +1,148 @@
+'Window': {
+	backgroundColor:Alloy.CFG.colors.white,
+	navBarHidden:true,
+	tabBarHidden:true,
+	fullscreen:true,
+	modal:false,
+	exitOnClose:true
+}
+'Window[platform=android]': {
+    orientation:Ti.UI.PORTRAIT,
+    orientationModes:[
+        Ti.UI.PORTRAIT
+    ],
+}
+'TableView': {
+	top:0,
+	bottom:0,
+	height:0,
+	layout:'vertical',
+	backgroundColor:Alloy.CFG.colors.white,
+	separatorColor:Alloy.CFG.colors.white,
+	showVerticalScrollIndicator:false,
+	scrollsToTop:false
+}
+'TableView[platform=ios]':{
+	selectionStyle:Ti.UI.iOS.TableViewCellSelectionStyle.NONE
+}
+'TableViewRow': {
+	backgroundColor:Alloy.CFG.colors.white,
+	backgroundSelectedColor:Alloy.CFG.colors.white,
+	borderColor:Alloy.CFG.colors.white
+}
+'ImageView[platform=ios]': {
+    preventDefaultImage:true
+}
+'WebView':{
+	hideLoadIndicator:true,
+	enableZoomControls:false,
+	disableBounce:true,
+	willHandleTouches:false,
+	touchEnabled:false,
+	backgroundColor:Alloy.CFG.colors.transparent
+}
+'Picker': {
+	left:12,
+	right:12,
+	backgroundColor:Alloy.CFG.colors.white,
+	font: {
+		fontSize:14,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'PickerColumn': {
+	backgroundColor:Alloy.CFG.colors.white,
+	font: {
+		fontSize:14,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'PickerRow': {
+	backgroundColor:Alloy.CFG.colors.white,
+	font: {
+		fontSize:14,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'Label': {
+	color:Alloy.CFG.colors.dark,
+	verticalAlign:Ti.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	font: {
+		fontSize:14,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'TextArea': {
+	autocorrect:false,
+	color:Alloy.CFG.colors.darkGrey,
+	autocapitalization:Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	font: {
+		fontSize:14,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'TextField':{
+	autocorrect:false,
+	height:38,
+	color:Alloy.CFG.colors.darkGrey,
+	backgroundColor:Alloy.CFG.colors.transparent,
+	verticalAlign:Ti.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	autocapitalization:Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	borderWidth:1,
+	borderColor:Alloy.CFG.colors.lightGrey,
+	font: {
+		fontSize:14,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'.label':{
+	color:Alloy.CFG.colors.green,
+	font:{
+		fontSize:12,
+		fontFamily:'GothamRnd-Book'
+	},
+	textAlign:'left',
+	left:32,
+	bottom:5
+}
+'.view':{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE
+}
+'.horizontal':{
+	layout:'horizontal'
+}
+'.vertical':{
+	layout:'vertical'
+}
+'.light': {
+	font: {
+		fontSize:14,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'.pager':{
+	scrollingEnabled:false,
+	scrollType:'horizontal',
+	layout:'horizontal',
+	page:0,
+	width:Ti.UI.FILL,
+	backgroundColor:Alloy.CFG.colors.transparent
+}
+'.appicon':{
+	top:40,
+	bottom:10,
+	width:78,
+	height:78,
+	image:'/images/logo.png'
+}
+'.scroll':{
+	showVerticalScrollIndicator:false,
+	scrollType:'vertical',
+	scrollingEnabled:true,
+	backgroundColor:Alloy.CFG.colors.white
+}
+'.br':{
+	height:5,
+	backgroundColor:Alloy.CFG.colors.transparent
+}

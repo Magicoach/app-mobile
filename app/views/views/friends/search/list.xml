@@ -1,0 +1,8 @@
+<Alloy>
+	<View id='view'>
+		<View id='search'/>
+		<Label id='label'/>
+		<View id='line'/>
+		<ScrollView id='search_list' />
+	</View>
+</Alloy>

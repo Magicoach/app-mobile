@@ -1,0 +1,12 @@
+<Alloy>
+	<View id='item' onClick='onClickItem'>
+		<View class='container'>
+			<ImageView id='icon'/>
+			<ImageView id='friend'/>
+		</View>	
+		<Label id='name'/>
+		<View id='status'>
+			<ImageView id='status_icon'/>
+		</View>
+	</View>
+</Alloy>

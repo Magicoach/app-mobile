@@ -1,0 +1,26 @@
+<Alloy>
+	<View id='medal'>
+		<View class='values' id='user'>
+			<View class='bar left' id='user_bar'>
+				<Label class='bar_bg' id='user_bg'/>
+				<Label class='bar_text' id='user_value'/>
+			</View>
+			<View class='right' id='user_medal'>
+				<ImageView id='user_image'/>
+			</View>
+		</View>
+		<View class='view vertical'>
+			<Label id='title'/>
+			<Label id='subtitle'/>
+		</View>
+		<View class='values' id='friend'>
+			<View class='left' id='friend_medal'>
+				<ImageView id='friend_image'/>
+			</View>
+			<View class='bar right' id='friend_bar'>
+				<Label class='bar_bg' id='friend_bg'/>
+				<Label class='bar_text' id='friend_value'/>
+			</View>
+		</View>
+	</View>
+</Alloy>

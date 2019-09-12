@@ -1,0 +1,8 @@
+'#view':{
+	backgroundColor:Alloy.CFG.colors.white,
+    width:Ti.UI.FILL
+}
+'#container':{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE
+}

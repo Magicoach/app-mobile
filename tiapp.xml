@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+ 
+    <id>com.magicoach.magicoach</id>
+    <name>Magicoach</name>
+    <icon>appicon.png</icon>
+    <property name="magicoach-free-version" type="bool">true</property>
+ 
+ <!--	 
+    <id>com.magicoach.magicoachpro</id>
+    <name>Magicoach Pro</name>
+    <icon>appicon_pro.png</icon>
+    <property name="magicoach-free-version" type="bool">false</property>
+ --> 
+  	<!-- !!iOS Pro, remember to update DefaultIcon.png to correct Logo. See logo-pro folder!! -->
+  	
+    <version>3.2.2</version>
+    <publisher>Magicoach</publisher>
+    <url>http://magicoach.com/</url>
+    <description>www.magicoach.com</description>
+    <copyright>2017 by Magicoach</copyright>
+    <fullscreen>true</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
+    <analytics>true</analytics>
+    <property name="ti.ui.defaultunit" type="string">dip</property>
+    <property name="ti.android.root.reappears.restart" type="bool">true</property>
+    <property name="run-on-main-thread" type="bool">false</property>
+    <guid>d9e63cac-d1bb-4682-9aaa-2c8f34a11cc5</guid>
+    <ios>
+        <min-ios-ver>7.1</min-ios-ver> <!-- iphone 4 last version is 7.1.2 -->
+        <use-app-thinning>true</use-app-thinning>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <true/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+                <key>UIRequiredDeviceCapabilities</key>
+                <array>
+                    <string>location-services</string>
+                    <string>gps</string>
+                </array>
+                <key>UIBackgroundModes</key>
+                <array>
+                    <string>location</string>
+                </array>
+                <key>NSLocationUsageDescription</key> <!-- For ios versions below 8.0 -->
+                <string>To track your field position, allow Magicoach to use your location service.</string>
+                <key>NSLocationAlwaysUsageDescription</key>
+                <string>To track your field position, allow Magicoach to use your location service.</string>
+            </dict>
+        </plist>
+    </ios>
+    <android>
+        <manifest android:versionCode="19"
+            android:installLocation="auto" xmlns:android="http://schemas.android.com/apk/res/android">
+            <uses-feature android:name="android.hardware.location.gps" android:required="true"/>
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+            <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+            <uses-permission android:name="android.permission.CAMERA"/>
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+            <uses-permission android:name="android.permission.INTERNET"/>
+            <uses-permission android:name="android.permission.WAKE_LOCK"/>
+        </manifest>
+    </android>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+        <module platform="iphone">dk.napp.social</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="mobileweb">false</target>
+        <target device="windows">false</target>
+    </deployment-targets>
+    <sdk-version>5.5.1.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">56714a05c7f827107a93bc26</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">VA2JmRZmANdX10L7SKOASrkmMmuqzJnc</property>
+    <property name="acs-oauth-key-development" type="string">b1GZrkdQjGMTzbeTjOYmWFkuHqfqWHGz</property>
+    <property name="acs-api-key-development" type="string">HeQHD65OHvv0pbOqDjk1fRIo7Otavfno</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">HToBxaeJ5YG0lHUaZT</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">hSZ50Lhv6Y8x2tQyIhOosDGuUG68qNn6</property>
+    <property name="acs-oauth-key-production" type="string">ptILdHuaKR1hDM6lFJgw2cqHwQ3buJvA</property>
+    <property name="acs-api-key-production" type="string">5vLmQWzNvtwTuU0W3lrGHLMT6LINomPr</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">0EU4v9y4Gkl8VlAhAH</property>
+    <property name="appc-org-id" type="string">100087815</property>
+    <property name="appc-creator-user-id" type="string">fc4d6a59-7bbf-4eea-bf27-d0bba3e3cfdd</property>
+</ti:app>

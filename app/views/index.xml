@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id='index'>
+		<View id='loading'>
+			<ActivityIndicator id='icon'/>
+		</View>
+		<View id='warn'>
+			<View id='warn_content'/>
+		</View>
+		<View id='view'/>
+	</Window>
+</Alloy>

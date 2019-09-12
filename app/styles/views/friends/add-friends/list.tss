@@ -1,0 +1,28 @@
+'#view':{
+	layout:'vertical',
+	top:0,
+	bottom:38
+}
+'#pending_label':{
+	top:20,
+	left:12,
+	color:Alloy.CFG.colors.light,
+	font:{
+		fontSize:12,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'#friends_label':{
+	top:20,
+	left:12,
+	color:Alloy.CFG.colors.light,
+	font:{
+		fontSize:12,
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'.line':{
+	top:8,
+	height:2,
+	backgroundColor:Alloy.CFG.colors.light
+}

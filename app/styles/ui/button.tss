@@ -1,0 +1,39 @@
+'#button':{
+	height:42,
+	left:32,
+	right:32,
+	bottom:16,
+	backgroundColor:Alloy.CFG.colors.green
+}
+'#title':{
+	left:50,
+	right:10,
+	text:'',
+	textAlign:'center',
+	color:Alloy.CFG.colors.white,
+	font:{
+		fontSize:14,
+		fontWeight:'bold',
+		fontFamily:'GothamRnd-Book'
+	}
+}
+'#icon':{
+	top:0,
+	left:0,
+	width:40,
+	height:40,
+	zIndex:1,
+	backgroundColor:Alloy.CFG.colors.black,
+	opacity:0.25
+}
+'#image':{
+	left:10,
+	width:30,
+	zIndex:2
+}
+'#border':{
+	bottom:0,
+	height:2,
+	backgroundColor:Alloy.CFG.colors.darkest,
+	opacity:0.6
+}
